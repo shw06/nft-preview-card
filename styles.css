@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 100px 600px 0px 600px;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 300px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;    
+}
+
+.equilibrium {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 15px 15px 0 15px;
+}
+
+.card-info {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-info h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.card-info h3:hover, 
+.avataar span:hover {
+    color:hsl(178, 100%, 50%);
+    transition: 0.3s;
+}
+
+.card-info p {
+    color: hsl(215, 51%, 70%);
+
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.day {
+    color: hsl(215, 51%, 70%);
+}
+
+.avataar {
+    display: flex;
+}
+
+.avataar img {
+    height: 40px;
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+.avataar p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.avataar span {
+    color: hsl(0, 0%, 100%);
+}
+
+
+.attribution p{ 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}*?
+
+
+
